@@ -16,6 +16,9 @@
             divi (){
                 this.Contador /=2;
             },
+            pont (){
+                this.Contador ^=2;
+            },
             reset () {
                 this.Contador = 0;
             },
@@ -36,6 +39,7 @@
         <button @click="disminuir()">-1</button>    
         <button @click="multi()">*2</button>
         <button @click="divi()">/2</button>
+        <button @click="pont()">^2</button>
         <button @click="reset()">Resetear</button>
     </div> 
 </template>
