@@ -61,11 +61,10 @@ h2 {
 button {
     cursor: pointer;
     font-size: 1.5rem;
-    margin: auto;
+    margin: 5px;
     text-align: center;
-}
-.click {
-    border: 0;
+    background-color: #ccc;
+    border: 2px dashed black;
 }
 </style>
 
